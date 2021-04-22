@@ -61,7 +61,7 @@ const Header = () => {
         data={filteredData}
         ItemSeparatorComponent={ItemSeparatorView}
         renderItem={({item, idx}) => (
-          <Text key={1} style={styles.item}>
+          <Text key={item.id} style={styles.item}>
             {item.name}
           </Text>
         )}
